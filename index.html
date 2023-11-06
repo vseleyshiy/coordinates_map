@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="game__info">
+                <h1>Поле 200х200 px.</h1>
+                <p>Программа, которая ставит квадрат в указанные координаты.</p>
+            </div>
+            <section class="map">
+                <div class="square" id="square"></div>
+            </section>
+            <div id="error">
+                Вы вводите недопустимое значение!
+            </div>
+            <section class="buttons">
+                <div class="inputs">
+                    <button class="btn" id="btnTop">
+                        ↑
+                    </button>
+                    <input type="text" id="X" placeholder="Координата X в px" disabled>
+                    <button class="btn" id="btnBottom">
+                        ↓
+                    </button>
+                </div>
+                <div class="inputs">
+                    <button class="btn" id="btnTop2">
+                        ↑
+                    </button>
+                    <input type="text" id="Y" placeholder="Координата Y в px" disabled>
+                    <button class="btn" id="btnBottom2">
+                        ↓
+                    </button>
+                </div>
+
+                <button class="btn" id="resultButton">
+                    Поставить
+                </button>
+
+
+            </section>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
